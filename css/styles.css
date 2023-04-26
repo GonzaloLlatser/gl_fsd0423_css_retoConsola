@@ -86,7 +86,10 @@ body {
 .marco{
     height: 25em;
     width: 25em;
-    background-color: rgb(78, 77, 77);
+    background-color: rgb(223, 83, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .teclasvarias{
@@ -125,3 +128,67 @@ body {
     background-color: black;
     margin-top: 1em;   
 }
+
+.marcomedio{
+    height: 22em;
+    width: 23.9em;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.etiquetasupermario{
+    height: 2.3em;
+    width: 23.2em;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.etiqueta{
+    height: 2em;
+    width: 14em;
+    background-color: blueviolet;
+}
+
+.etiquetanintendo{
+    height: 2.3em;
+    width: 23.2em;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logonintedo{
+    height: 2em;
+    width: 10em;
+    background-color: rgb(144, 137, 133);
+}
+.marcopantalla{
+    height: 17em;
+    width: 23.2em;
+    background-color: rgb(41, 198, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* /*  */
+.fondopantalla{
+    height: 16.2em;
+    width: 22em;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pantalla{
+    height: 15.5em;
+    width: 20.5em;
+    background-color: azure;
+}
+
