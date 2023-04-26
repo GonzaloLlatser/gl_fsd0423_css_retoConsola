@@ -62,7 +62,12 @@ body {
 .etiquetagameandwatch{
     height: 5em;
     width: 6em;
-    background-color: rgb(81, 112, 205);
+    background-color: rgb(219, 222, 232);
+    background-image: url(/img/logo\ game\ and\ watch\ pro.png);
+    background-size: 96%;
+    background-repeat: no-repeat;
+    border-radius: 8px 8px 8px 8px;
+    border: 0.05em solid #1a1818;
 }
 
 .espaciocentro{
@@ -104,6 +109,7 @@ body {
     background-color: rgb(148, 165, 160);
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 .teclas{
@@ -112,14 +118,19 @@ body {
     background-color: rgb(124, 124, 73);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: end;
     
 }
 
 .accesosabotones{
     width: 12em;
     height: 9em;
-    background-color: rgb(182, 193, 31);
+    background-color: rgb(151, 136, 212);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    justify-content: space-evenly;
+    
 }
 
 .botongame, .botontime, .botonpause{
@@ -160,14 +171,19 @@ body {
     background-color: chocolate;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .logonintedo{
     height: 2em;
     width: 10em;
-    background-color: rgb(144, 137, 133);
+    background-color: rgb(160, 219, 51);
+    background-image: url(/img/nintendo-logo-png-transparent\ \(1\).png);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    margin-left: 3.8em;
+    margin-top: 0.2em;   
 }
+
 .marcopantalla{
     height: 17em;
     width: 23.2em;
@@ -176,7 +192,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-/* /*  */
+
 .fondopantalla{
     height: 16.2em;
     width: 22em;
@@ -184,11 +200,30 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
 .pantalla{
     height: 15.5em;
     width: 20.5em;
     background-color: azure;
 }
 
+.botonB, .botonA{
+    height: 3.5em;
+    width: 3.5em;
+    background-color: red;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.35em;
+    border-color: rgb(122, 2, 2);   
+}
+
+.letrasdebotones{
+    display: flex;
+} 
+
+.botonletraB, .botonletraA{
+    width: 4em;
+    height: 4em;
+    background-color: aquamarine;
+}
