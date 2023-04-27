@@ -79,7 +79,27 @@ body {
 .comandos{
     height: 8em;
     width: 8em;
-    background-color: darkgrey;
+    /* background-color: darkgrey; */
+    display: flex;
+    flex-direction:row;  
+}
+.arrow{
+    text-align: center;
+    font-size: 2em;
+    line-height: 0.1em
+}
+
+
+
+.flech, .flechvacio{
+    height: 2.7em;
+    width: 2.7em;
+    background-color: cadetblue;
+    border: solid; 
+}
+
+.flechvacio{
+    background: none;
 }
 
 .espacioabajo{
@@ -105,26 +125,42 @@ body {
 
 .botones{
     width: 12em;
-    height: 13.5em;
+    height: 15.5em;
     background-color: rgb(148, 165, 160);
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
+    
 }
 
+.botonletraB, .botonletraA{
+    width: 2em;
+    height: 2em;
+    background-color: aquamarine;
+    text-align: center;
+    margin-left: 2.4em;
+    margin-top: 0.3em;
+}
+
+.botonletraA{
+    margin-left: 3.3em;
+}
 .teclas{
-    width: 4em;
+    width: 5.2em;
     height: 13.5em;
     background-color: rgb(124, 124, 73);
     display: flex;
     flex-direction: column;
     align-items: end;
+    justify-content: right;
+    justify-content: flex-start     
+
     
 }
 
 .accesosabotones{
     width: 12em;
-    height: 9em;
+    height: 7.88em;
     background-color: rgb(151, 136, 212);
     display: flex;
     justify-content: center;
@@ -134,10 +170,32 @@ body {
 }
 
 .botongame, .botontime, .botonpause{
-    width: 2em;
-    height: 2em;
-    background-color: black;
-    margin-top: 1em;   
+    width: 3.2em;
+    height: 2.2em;
+    background-color: rgb(169, 136, 26);
+    margin-top: 1em;
+    border-radius: 20em;
+    border-style: solid;
+    border-width: 0.55em;
+    border-color: rgb(122, 2, 2);
+}
+
+.textogame, .textotime, .textopause{
+    font-size: 0.75em;
+    font-family: Arial;
+    font-weight: bolder;
+    background-color: aqua;
+
+}
+.textogame{
+    margin-right: 0.6em;
+    
+}
+.textotime{
+    margin-right: 1em;
+}
+.textopause{
+    margin-right: 0.5em;
 }
 
 .marcomedio{
@@ -160,9 +218,14 @@ body {
 }
 
 .etiqueta{
-    height: 2em;
+    height: 1em;
     width: 14em;
     background-color: blueviolet;
+    font-family: Arial;
+    text-align: center;
+    font-size: 1.3em;
+    
+    
 }
 
 .etiquetanintendo{
@@ -176,11 +239,13 @@ body {
 .logonintedo{
     height: 2em;
     width: 10em;
-    background-color: rgb(160, 219, 51);
+    background-color: rgb(159, 162, 154);
     background-image: url(/img/nintendo-logo-png-transparent\ \(1\).png);
     background-size: 65%;
     background-repeat: no-repeat;
-    margin-left: 3.8em;
+    background-position-x:1.7em;
+    background-position-y:0.2em;
+    /* margin-left: 3.5em; */
     margin-top: 0.2em;   
 }
 
@@ -205,16 +270,17 @@ body {
 .pantalla{
     height: 15.5em;
     width: 20.5em;
-    background-color: azure;
+    background-image: url(/fotografia2.avif);
+    background-size: 120%; background-repeat: no-repeat; 
 }
 
 .botonB, .botonA{
-    height: 3.5em;
-    width: 3.5em;
+    height: 4em;
+    width: 4em;
     background-color: red;
     border-radius: 50%;
     border-style: solid;
-    border-width: 0.35em;
+    border-width: 0.55em;
     border-color: rgb(122, 2, 2);   
 }
 
@@ -222,8 +288,3 @@ body {
     display: flex;
 } 
 
-.botonletraB, .botonletraA{
-    width: 4em;
-    height: 4em;
-    background-color: aquamarine;
-}
