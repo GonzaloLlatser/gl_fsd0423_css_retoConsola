@@ -11,6 +11,19 @@ body {
     align-items: center;
 }
 
+.contenedor{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/fondoMB.jpg!d);
+    background-size: 100% 100%;
+    image-orientation: flip;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
 .consola0 {
     height: 30em;
     width: 50em;
@@ -20,28 +33,20 @@ body {
     align-items: center;
     box-shadow: 0.2em 0em 0.7em 0.03em rgb(2, 2, 2);
     border-radius: 0.4em;
-    /* box-shadow: 0 0 10em #fff */
-
 }
 
 .frentegeneral{
     height: 27em;
     width: 49em;
-    /* background-color: darkkhaki; */
     display: flex;
     box-shadow: 0.2em 0em 0.7em 0.03em rgb(2, 2, 2);
     background-image: url(/img/estilocuerpo.webp);
-    border-radius: 0.4em;    
-    
-   
-    /* background: linear-gradient(110deg, rgba(201, 205, 87, 0.096) 0%, rgba(127, 133, 23, 0.129) 27%, rgba(178, 174, 54, 0.149) 35%); */
-    /* background: rgb(254,255,231); */
+    border-radius: 0.4em;
 }
 
 .frentelateralizq{
     height: 27em;
     width: 12em;
-    /* background-color: blue; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,16 +55,14 @@ body {
 .frentecentral{
     height: 27em;
     width: 25em;
-    /* background-color: blueviolet; */
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
+
 .frentelateralder{
     height: 27em;
     width: 12em;
-    /* background-color: rgb(65, 165, 45); */
     display: flex;
     flex-direction: column;
 }
@@ -67,7 +70,6 @@ body {
 .espacioarriba{
     height: 2.5em;
     width: 12em;
-    /* background-color: crimson; */
 }
 
 .etiquetagameandwatch{
@@ -85,18 +87,15 @@ body {
 .espaciocentro{
     height: 9em;
     width: 12em;
-    /* background-color: darkorange; */
 }
 
 .comandos{
     height: 8em;
     width: 8em;
-    /* background-color: darkgrey; */
     display: flex;
-    flex-direction:row;
-    
-      
+    flex-direction:row;      
 }
+
 .arrow1, .arrow2, .arrow3, .arrow4, .arrow5{
     font-size: 2em;
     line-height: 0.1em;   
@@ -104,13 +103,13 @@ body {
 
 .arrow1{
     margin-top: 0.45em;
-   
 }
 
 .arrow2{
     margin-top: 0.45em;
     text-align: center;
 }
+
 .arrow3{
     margin-top: 0.63em;
     margin-left: 0.26em;
@@ -119,6 +118,7 @@ body {
 .arrow4{
     margin-top: 0.65em;
 }
+
 .arrow5{
     margin-top: 0.45em;
     margin-left: 0.30em;
@@ -132,12 +132,10 @@ body {
 }
 
 .flech1{
-
     border-top: 0.4em solid rgb(122, 2, 2);
     border-bottom: 0.4em solid rgb(122, 2, 2);
     border-left: 0.4em solid rgb(122, 2, 2);
     border-radius: 0.4em
-    
 }
 
 .flech2{
@@ -145,7 +143,6 @@ body {
     border-right:0.4em solid rgb(122, 2, 2);
     border-left: 0.4em solid rgb(122, 2, 2);
     border-radius: 0.4em
-    
 }
 
 .flech4{
@@ -153,7 +150,6 @@ body {
     border-bottom: 0.4em solid rgb(122, 2, 2);
     border-left: 0.4em solid rgb(122, 2, 2);
     border-radius: 0.4em
-    
 }
 
 .flech5{
@@ -165,13 +161,11 @@ body {
 
 .flechvacio{
     background: none;
-    
 }
 
 .espacioabajo{
     height: 2.5em;
     width: 12em;
-    /* background-color: rgb(131, 100, 106); */
 }
 
 .marco{
@@ -188,23 +182,18 @@ body {
 .teclasvarias{
     width: 12em;
     height: 13.5em;
-    /* background-color: aquamarine; */
 }
 
 .botones{
     width: 12em;
     height: 15.5em;
-    /* background-color: rgb(148, 165, 160); */
     display: flex;
-    /* align-items: center; */
     flex-direction: column;
-    
 }
 
 .botonletraB, .botonletraA{
     width: 2em;
     height: 2em;
-    /* background-color: aquamarine; */
     text-align: center;
     margin-left: 2.4em;
     margin-top: 0.3em;
@@ -216,39 +205,34 @@ body {
 .teclas{
     width: 5.2em;
     height: 13.5em;
-    /* background-color: rgb(124, 124, 73); */
     display: flex;
     flex-direction: column;
     align-items: end;
     justify-content: right;
     justify-content: flex-start     
-
-    
 }
 
 .accesosabotones{
     width: 12em;
     height: 7.88em;
-    /* background-color: rgb(151, 136, 212); */
     display: flex;
     justify-content: center;
     align-items: end;
     justify-content: space-evenly;
-    
 }
 
 .botongame, .botontime, .botonpause{
     width: 3.2em;
     height: 2.2em;
     background-color: rgb(156, 154, 149);
-    /* background: rgb(198,197,197); */
     background: linear-gradient(110deg, rgba(198,197,197,1) 0%, rgba(144,144,144,1) 19%, rgba(124,123,123,1) 47%);
     border-radius: 20em;
     border-style: solid;
     border-width: 0.55em;
     border-color: rgb(122, 2, 2);
-    box-shadow: 0.3em 0.3em 1em 0.2em;
+    box-shadow: 0.3em 0.3em 3em 0.2em;
 }
+
 .botongame{
     margin-top: 1em;
 }
@@ -257,9 +241,8 @@ body {
     font-size: 0.70em;
     font-family: Arial;
     font-weight: bolder;
-    /* background-color: aqua; */
-
 }
+
 .textogame{
     margin-right: 0.8em;
     margin-top: 0.11em;
@@ -269,6 +252,7 @@ body {
     margin-right: 1.1em;
     margin-top: 0.11em;
 }
+
 .textopause{
     margin-right: 0.6em;
     margin-top: 0.11em;
@@ -277,19 +261,16 @@ body {
 .marcomedio{
     height: 22em;
     width: 23.9em;
-    /* background-color: aqua; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     box-shadow: 0.5em -0.9em em 9em rgba(0,0,0,0.1);
-
 }
 
 .etiquetasupermario{
     height: 2.3em;
     width: 23.2em;
-    /* background-color: chocolate; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -298,12 +279,9 @@ body {
 .etiqueta{
     height: 1em;
     width: 14em;
-    /* background-color: blueviolet; */
     font-family: Arial;
     text-align: center;
-    font-size: 1.3em;
-    
-    
+    font-size: 1.3em;  
 }
 
 .etiquetanintendo{
@@ -317,20 +295,17 @@ body {
 .logonintedo{
     height: 2em;
     width: 10em;
-    /* background-color: rgb(159, 162, 154); */
     background-image: url(/img/nintendo-logo-png-transparent\ \(1\).png);
     background-size: 65%;
     background-repeat: no-repeat;
     background-position-x:1.7em;
     background-position-y:0.2em;
-    /* margin-left: 3.5em; */
     margin-top: 0.1em;   
 }
 
 .marcopantalla{
     height: 17em;
     width: 23.2em;
-    /* background-color: brown; */
     box-shadow: 0,0,10em,0 brown;
     display: flex;
     justify-content: center;
@@ -351,8 +326,8 @@ body {
 .pantalla{
     height: 15.5em;
     width: 20.5em;
-
 }
+
 .pantallaEncendida{
     background-image: url(/img/Imagenprincipal.avif);
     background-size: 120%; background-repeat: no-repeat; 
@@ -361,12 +336,10 @@ body {
 .botonB, .botonA{
     height: 4em;
     width: 4em;
-    /* background-color: red; */
     border-radius: 50%;
     border-style: solid;
     border-width: 0.55em;
     border-color: rgb(122, 2, 2);
-    background: rgb(226,180,180);
     background: linear-gradient(110deg, rgba(226,180,180,1) 0%, rgba(200,24,24,1) 24%, rgba(255,0,0,1) 75%);
     box-shadow: 0.2em 0.2em 0.7em 0.1em
 }
@@ -376,4 +349,6 @@ body {
     font-family: Arial;
     font-weight: bolder;
 } 
+
+
 
