@@ -18,13 +18,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0.2em 0em 0.7em 0.03em rgb(2, 2, 2);
+    border-radius: 0.4em;
+    /* box-shadow: 0 0 10em #fff */
+
 }
 
 .frentegeneral{
     height: 27em;
     width: 49em;
-    background-color: darkkhaki;
+    /* background-color: darkkhaki; */
     display: flex;
+    box-shadow: 0.2em 0em 0.7em 0.03em rgb(2, 2, 2);
+    background-image: url(/img/estilocuerpo.webp);
+    border-radius: 0.4em;    
+    
+   
+    /* background: linear-gradient(110deg, rgba(201, 205, 87, 0.096) 0%, rgba(127, 133, 23, 0.129) 27%, rgba(178, 174, 54, 0.149) 35%); */
+    /* background: rgb(254,255,231); */
 }
 
 .frentelateralizq{
@@ -68,6 +79,7 @@ body {
     background-repeat: no-repeat;
     border-radius: 8px 8px 8px 8px;
     border: 0.05em solid #1a1818;
+    box-shadow: 0em 0em 0em 0em rgb(2, 2, 2);
 }
 
 .espaciocentro{
@@ -81,17 +93,18 @@ body {
     width: 8em;
     /* background-color: darkgrey; */
     display: flex;
-    flex-direction:row;  
+    flex-direction:row;
+    
+      
 }
 .arrow1, .arrow2, .arrow3, .arrow4, .arrow5{
-    
     font-size: 2em;
-    line-height: 0.1em;
-    
+    line-height: 0.1em;   
 }
 
 .arrow1{
-    margin-top: 0.45em; 
+    margin-top: 0.45em;
+   
 }
 
 .arrow2{
@@ -115,7 +128,7 @@ body {
     height: 2.7em;
     width: 2.7em;
     display: flex;
-    background-color: rgb(12, 12, 12);   
+    background-color: rgb(19, 19, 19);   
 }
 
 .flech1{
@@ -123,28 +136,36 @@ body {
     border-top: 0.4em solid rgb(122, 2, 2);
     border-bottom: 0.4em solid rgb(122, 2, 2);
     border-left: 0.4em solid rgb(122, 2, 2);
+    border-radius: 0.4em
+    
 }
 
 .flech2{
     border-top: 0.4em solid rgb(122, 2, 2);
     border-right:0.4em solid rgb(122, 2, 2);
     border-left: 0.4em solid rgb(122, 2, 2);
+    border-radius: 0.4em
+    
 }
 
 .flech4{
     border-right: 0.4em solid rgb(122, 2, 2);
     border-bottom: 0.4em solid rgb(122, 2, 2);
     border-left: 0.4em solid rgb(122, 2, 2);
+    border-radius: 0.4em
+    
 }
 
 .flech5{
     border-top: 0.4em solid rgb(122, 2, 2);
     border-bottom: 0.4em solid rgb(122, 2, 2);
     border-right: 0.4em solid rgb(122, 2, 2);
+    border-radius: 0.4em
 }
 
 .flechvacio{
     background: none;
+    
 }
 
 .espacioabajo{
@@ -156,10 +177,12 @@ body {
 .marco{
     height: 25em;
     width: 25em;
-    background-color: rgb(223, 83, 83);
+    background-image: url(/img/estilocuerpo.webp);
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0em 0em 2em 0em rgb(2, 2, 2);
+    border-radius: 0.5em;
 }
 
 .teclasvarias{
@@ -218,10 +241,13 @@ body {
     width: 3.2em;
     height: 2.2em;
     background-color: rgb(156, 154, 149);
+    /* background: rgb(198,197,197); */
+    background: linear-gradient(110deg, rgba(198,197,197,1) 0%, rgba(144,144,144,1) 19%, rgba(124,123,123,1) 47%);
     border-radius: 20em;
     border-style: solid;
     border-width: 0.55em;
     border-color: rgb(122, 2, 2);
+    box-shadow: 0.3em 0.3em 1em 0.2em;
 }
 .botongame{
     margin-top: 1em;
@@ -256,6 +282,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-shadow: 0.5em -0.9em em 9em rgba(0,0,0,0.1);
+
 }
 
 .etiquetasupermario{
@@ -281,7 +309,7 @@ body {
 .etiquetanintendo{
     height: 2.3em;
     width: 23.2em;
-    background-color: chocolate;
+    background-image: url(/prueba1.webp);
     display: flex;
     justify-content: center;
 }
@@ -302,10 +330,13 @@ body {
 .marcopantalla{
     height: 17em;
     width: 23.2em;
-    background-color: brown;
+    /* background-color: brown; */
+    box-shadow: 0,0,10em,0 brown;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 0.5em;
+    background-color: brown;
 }
 
 .fondopantalla{
@@ -320,18 +351,24 @@ body {
 .pantalla{
     height: 15.5em;
     width: 20.5em;
-    background-image: url(/fotografia2.avif);
+
+}
+.pantallaEncendida{
+    background-image: url(/img/Imagenprincipal.avif);
     background-size: 120%; background-repeat: no-repeat; 
 }
 
 .botonB, .botonA{
     height: 4em;
     width: 4em;
-    background-color: red;
+    /* background-color: red; */
     border-radius: 50%;
     border-style: solid;
     border-width: 0.55em;
-    border-color: rgb(122, 2, 2);   
+    border-color: rgb(122, 2, 2);
+    background: rgb(226,180,180);
+    background: linear-gradient(110deg, rgba(226,180,180,1) 0%, rgba(200,24,24,1) 24%, rgba(255,0,0,1) 75%);
+    box-shadow: 0.2em 0.2em 0.7em 0.1em
 }
 
 .letrasdebotones{
