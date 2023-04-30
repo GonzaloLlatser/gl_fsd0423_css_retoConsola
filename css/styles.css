@@ -9,7 +9,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .contenedor{
@@ -28,21 +27,21 @@ body {
 .consola0 {
     height: 30em;
     width: 50em;
-    background-color: brown;
+    background-color: rgb(154, 25, 25);
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0.2em 0em 0.7em 0.03em rgb(2, 2, 2);
     border-radius: 0.4em;
+    box-shadow:  0em  0em 0.7em 0.3em rgba(13, 10, 10, 0.967);
 }
 
 .frentegeneral{
     height: 27em;
     width: 49em;
     display: flex;
-    box-shadow: 0.2em 0em 0.7em 0.03em rgb(2, 2, 2);
     background-image: url(/img/estilocuerpo.webp);
     border-radius: 0.4em;
+    box-shadow:  0em  0em 0.7em 0.3em rgba(97, 88, 88, 0.967);
 }
 
 .frentelateralizq{
@@ -99,7 +98,8 @@ body {
 
 .arrow1, .arrow2, .arrow3, .arrow4, .arrow5{
     font-size: 2em;
-    line-height: 0.1em;   
+    line-height: 0.1em;
+    box-shadow: 0em 0em 5em 0.1em rgba(255, 252, 252, 0.967);
 }
 
 .arrow1{
@@ -123,6 +123,7 @@ body {
 .arrow5{
     margin-top: 0.45em;
     margin-left: 0.30em;
+    box-shadow: 0em 0em 5em 0.1em rgba(255, 252, 252, 0.967);
 }
 
 .flech1, .flech2, .flech3, .flech4, .flech5, .flechvacio{
@@ -133,30 +134,31 @@ body {
 }
 
 .flech1{
-    border-top: 0.4em solid rgb(122, 2, 2);
-    border-bottom: 0.4em solid rgb(122, 2, 2);
-    border-left: 0.4em solid rgb(122, 2, 2);
-    border-radius: 0.4em
+    border-top: 0.4em solid rgb(154, 25, 25);
+    border-bottom: 0.4em solid rgb(154, 25, 25);
+    border-left: 0.4em solid rgb(154, 25, 25);
+    border-radius: 0.4em;
+    box-shadow:  0 0em 0.2em 0.1em rgb(137, 72, 72);  
 }
 
 .flech2{
-    border-top: 0.4em solid rgb(122, 2, 2);
-    border-right:0.4em solid rgb(122, 2, 2);
-    border-left: 0.4em solid rgb(122, 2, 2);
+    border-top: 0.4em solid rgb(154, 25, 25);
+    border-right:0.4em solid rgb(154, 25, 25);
+    border-left: 0.4em solid rgb(154, 25, 25);
     border-radius: 0.4em
 }
 
 .flech4{
-    border-right: 0.4em solid rgb(122, 2, 2);
-    border-bottom: 0.4em solid rgb(122, 2, 2);
-    border-left: 0.4em solid rgb(122, 2, 2);
+    border-right: 0.4em solid rgb(154, 25, 25);
+    border-bottom: 0.4em solid rgb(154, 25, 25);
+    border-left: 0.4em solid rgb(154, 25, 25);
     border-radius: 0.4em
 }
 
 .flech5{
-    border-top: 0.4em solid rgb(122, 2, 2);
-    border-bottom: 0.4em solid rgb(122, 2, 2);
-    border-right: 0.4em solid rgb(122, 2, 2);
+    border-top: 0.4em solid rgb(154, 25, 25);
+    border-bottom: 0.4em solid rgb(154, 25, 25);
+    border-right: 0.4em solid rgb(154, 25, 25);
     border-radius: 0.4em
 }
 
@@ -176,7 +178,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0em 0em 2em 0em rgb(2, 2, 2);
+    box-shadow:  0 0em 0.5em 0.8em rgba(192, 165, 152, 0.967);
     border-radius: 0.5em;
 }
 
@@ -225,17 +227,21 @@ body {
 .botongame, .botontime, .botonpause{
     width: 3.2em;
     height: 2.2em;
-    background-color: rgb(156, 154, 149);
-    background: linear-gradient(110deg, rgba(198,197,197,1) 0%, rgba(144,144,144,1) 19%, rgba(124,123,123,1) 47%);
+    background: linear-gradient(110deg, rgb(248, 238, 238) 0%, rgb(184, 184, 184) 19%, rgb(140, 139, 139) 47%);
     border-radius: 20em;
     border-style: solid;
-    border-width: 0.55em;
-    border-color: rgb(122, 2, 2);
-    box-shadow: 0.3em 0.3em 3em 0.2em;
+    border-width: 0.47em;
+    border-color: rgb(154, 25, 25);
+    box-shadow:  0 0em 0.2em 0.1em rgba(13, 10, 10, 0.967);
 }
 
 .botongame{
     margin-top: 1em;
+}
+
+.botongame:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 2px 5px #888888;   
 }
 
 .textogame, .textotime, .textopause{
@@ -266,7 +272,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0.5em -0.9em em 9em rgba(0,0,0,0.1);
 }
 
 .etiquetasupermario{
@@ -307,12 +312,13 @@ body {
 .marcopantalla{
     height: 17em;
     width: 23.2em;
-    box-shadow: 0,0,10em,0 brown;
+    box-shadow: 0,0,10em,0 rgb(154, 25, 25);
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 0.5em;
-    background-color: brown;
+    background-color: rgb(154, 25, 25);
+    box-shadow:  0 0em 0.2em 0.1em rgba(13, 10, 10, 0.967);
 }
 
 .fondopantalla{
@@ -322,6 +328,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow:  0 0em 0.2em 0.1em rgba(13, 10, 10, 0.967);
 }
 
 .pantalla{
@@ -340,9 +347,13 @@ body {
     border-radius: 50%;
     border-style: solid;
     border-width: 0.55em;
-    border-color: rgb(122, 2, 2);
-    background: linear-gradient(110deg, rgba(226,180,180,1) 0%, rgba(200,24,24,1) 24%, rgba(255,0,0,1) 75%);
-    box-shadow: 0.2em 0.2em 0.7em 0.1em
+    border-color: rgb(154, 25, 25);
+    background: linear-gradient(110deg, rgba(226,180,180,1) 0%, rgba(200,24,24,1) 24%, rgb(226, 78, 78) 75%);
+    box-shadow:  0 0em 0.2em 0.1em rgba(13, 10, 10, 0.967);
+}
+
+.botonB:hover, .botonA:hover {
+    box-shadow: 2px 2px 5px #888888;
 }
 
 .letrasdebotones{
@@ -350,6 +361,3 @@ body {
     font-family: Arial;
     font-weight: bolder;
 } 
-
-
-
