@@ -241,7 +241,8 @@ body {
 
 .botongame:hover{
     transform: scale(1.05);
-    box-shadow: 2px 2px 5px #888888;   
+    box-shadow: 2px 2px 5px #888888;
+    cursor: pointer;
 }
 
 .textogame, .textotime, .textopause{
@@ -354,6 +355,7 @@ body {
 
 .botonB:hover, .botonA:hover {
     box-shadow: 2px 2px 5px #888888;
+    
 }
 
 .letrasdebotones{
