@@ -40,7 +40,7 @@ body {
     height: 27em;
     width: 49em;
     display: flex;
-    background-image: url(/img/fondonew.jpg);
+    background-image: url(../img/fondonew.jpg);
     background-color: blue;
     border-radius: 0.4em;
     box-shadow:  0em  0em 0.7em 0.3em rgba(97, 88, 88, 0.967);
@@ -78,7 +78,7 @@ body {
     height: 5em;
     width: 6em;
     background-color: rgb(219, 222, 232);
-    background-image: url(/img/logo\ game\ and\ watch\ pro.jpg.png);
+    background-image: url(../img/nintendo-logo-png-transparent.jpg.png);
     background-size: 96%;
     background-repeat: no-repeat;
     border-radius: 8px 8px 8px 8px;
@@ -176,7 +176,7 @@ body {
 .marco{
     height: 25em;
     width: 25em;
-    background-image: url(/img/estilocuerpo.jpg);
+    background-image: url(../img/estilocuerpo.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -296,7 +296,7 @@ body {
 .etiquetanintendo{
     height: 2.3em;
     width: 23.2em;
-    background-image: url(/prueba1.webp);
+    background-image: url(../prueba1.webp);
     display: flex;
     justify-content: center;
 }
@@ -304,7 +304,7 @@ body {
 .logonintedo{
     height: 3em;
     width: 15em;
-    background-image: url(/img/nintendo.png);
+    background-image: url(../img/nintendo.png);
     
     
     background-size: 65%;
@@ -344,7 +344,7 @@ body {
 }
 
 .pantallaEncendida{
-    background-image: url(/img/pantallavideo.jpg);
+    background-image: url(../img/pantallavideo.jpg);
     background-size: 23em 15em; background-repeat: no-repeat; 
     background-position: center;
 }
