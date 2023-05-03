@@ -17,8 +17,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: aqua; */
-    background-image: url(/img/fondo.jpg);
+    /* IMPORTANTE, hay que hacer el ../ en las imagenes sino no aparecen */
+    background-image: url(../img/fondo.jpg); 
     background-size: 100% 100%;
     image-orientation: flip;
     display: flex;
@@ -78,7 +78,7 @@ body {
     height: 5em;
     width: 6em;
     background-color: rgb(219, 222, 232);
-    background-image: url(../img/nintendo-logo-png-transparent.jpg.png);
+    background-image: url(../img/Game_&_Watch_Title.PNG.webp);
     background-size: 96%;
     background-repeat: no-repeat;
     border-radius: 8px 8px 8px 8px;
