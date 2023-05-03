@@ -17,7 +17,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/img/fondoMB.jpg!d);
+    /* background-color: aqua; */
+    background-image: url(/img/fondo.jpg);
     background-size: 100% 100%;
     image-orientation: flip;
     display: flex;
@@ -39,7 +40,8 @@ body {
     height: 27em;
     width: 49em;
     display: flex;
-    background-image: url(/img/estilocuerpo.webp);
+    background-image: url(/img/fondonew.jpg);
+    background-color: blue;
     border-radius: 0.4em;
     box-shadow:  0em  0em 0.7em 0.3em rgba(97, 88, 88, 0.967);
 }
@@ -76,7 +78,7 @@ body {
     height: 5em;
     width: 6em;
     background-color: rgb(219, 222, 232);
-    background-image: url(/img/logo\ game\ and\ watch\ pro.png);
+    background-image: url(/img/logo\ game\ and\ watch\ pro.jpg.png);
     background-size: 96%;
     background-repeat: no-repeat;
     border-radius: 8px 8px 8px 8px;
@@ -174,7 +176,7 @@ body {
 .marco{
     height: 25em;
     width: 25em;
-    background-image: url(/img/estilocuerpo.webp);
+    background-image: url(/img/estilocuerpo.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -242,7 +244,7 @@ body {
 .botongame:hover{
     transform: scale(1.05);
     box-shadow: 2px 2px 5px #888888;
-    cursor: pointer;
+    
 }
 
 .textogame, .textotime, .textopause{
@@ -300,14 +302,18 @@ body {
 }
 
 .logonintedo{
-    height: 2em;
-    width: 10em;
-    background-image: url(/img/nintendo-logo-png-transparent\ \(1\).png);
+    height: 3em;
+    width: 15em;
+    background-image: url(/img/nintendo.png);
+    
+    
     background-size: 65%;
     background-repeat: no-repeat;
-    background-position-x:1.7em;
-    background-position-y:0.2em;
+    /* background-position-x:1.7em;
+    background-position-y:0.2em; */
     margin-top: 0.1em;   
+    background-size: 7.5em;
+    background-position: center;
 }
 
 .marcopantalla{
@@ -338,8 +344,9 @@ body {
 }
 
 .pantallaEncendida{
-    background-image: url(/img/Imagenprincipal.avif);
-    background-size: 120%; background-repeat: no-repeat; 
+    background-image: url(/img/pantallavideo.jpg);
+    background-size: 23em 15em; background-repeat: no-repeat; 
+    background-position: center;
 }
 
 .botonB, .botonA{
